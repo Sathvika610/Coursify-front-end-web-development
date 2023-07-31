@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4f4;
+  }
+  header {
+    background-color: #4c68d7;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  h1 {
+    margin: 0;
+  }
+  .hero-section {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0f0404;
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 800px;
+  }
+  .hero-content h2 {
+    font-size: 36px;
+  }
+  .hero-content p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  .feature {
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .feature h3 {
+    font-size: 24px;
+  }
+  .feature p {
+    font-size: 16px;
+  }
+  .cta-section {
+    background-color: #4c68d7;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  .cta-section h2 {
+    font-size: 32px;
+  }
+  .cta-section p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .cta-btn {
+    background-color: #fff;
+    color: #4c68d7;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .cta-btn:hover {
+    background-color: #e0e0e0;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    color: #090808b4;
+    text-decoration: none;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #4c68d7;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .btn:hover {
+    background-color: rgba(30, 71, 193, 0.86);
+  }
